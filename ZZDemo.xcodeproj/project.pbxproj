@@ -15,6 +15,7 @@
 		16EB03E71C38F56500CB676B /* ZZFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03E61C38F56500CB676B /* ZZFourViewController.m */; };
 		16EB03F11C390FB200CB676B /* NSDictionary+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03F01C390FB200CB676B /* NSDictionary+Core.m */; };
 		16EB03F41C390FC700CB676B /* NSArray+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03F31C390FC700CB676B /* NSArray+Core.m */; };
+		16EB03F61C3938FC00CB676B /* tableViewSample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EB03F51C3938FC00CB676B /* tableViewSample.plist */; };
 		A9C1C6901C33879400FD9EBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1C68F1C33879400FD9EBF /* main.m */; };
 		A9C1C6931C33879400FD9EBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1C6921C33879400FD9EBF /* AppDelegate.m */; };
 		A9C1C69B1C33879400FD9EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C1C69A1C33879400FD9EBF /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		16EB03F01C390FB200CB676B /* NSDictionary+Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Core.m"; sourceTree = "<group>"; };
 		16EB03F21C390FC700CB676B /* NSArray+Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Core.h"; sourceTree = "<group>"; };
 		16EB03F31C390FC700CB676B /* NSArray+Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Core.m"; sourceTree = "<group>"; };
+		16EB03F51C3938FC00CB676B /* tableViewSample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tableViewSample.plist; sourceTree = "<group>"; };
 		A9C1C68B1C33879400FD9EBF /* ZZDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C1C68F1C33879400FD9EBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9C1C6911C33879400FD9EBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		16EB03EB1C390EF500CB676B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				16EB03F51C3938FC00CB676B /* tableViewSample.plist */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16EB03F61C3938FC00CB676B /* tableViewSample.plist in Resources */,
 				A9C1C69B1C33879400FD9EBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
