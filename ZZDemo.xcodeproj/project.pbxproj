@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16EB03D51C38CE9F00CB676B /* ZZMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */; };
+		16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D41C38CE9F00CB676B /* ZZNavigationController.m */; };
+		16EB03DE1C38F51E00CB676B /* ZZOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */; };
+		16EB03E11C38F55000CB676B /* ZZTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03E01C38F55000CB676B /* ZZTwoViewController.m */; };
+		16EB03E41C38F55A00CB676B /* ZZThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03E31C38F55A00CB676B /* ZZThreeViewController.m */; };
+		16EB03E71C38F56500CB676B /* ZZFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03E61C38F56500CB676B /* ZZFourViewController.m */; };
 		A9C1C6901C33879400FD9EBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1C68F1C33879400FD9EBF /* main.m */; };
 		A9C1C6931C33879400FD9EBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1C6921C33879400FD9EBF /* AppDelegate.m */; };
-		A9C1C6961C33879400FD9EBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1C6951C33879400FD9EBF /* ViewController.m */; };
 		A9C1C69B1C33879400FD9EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C1C69A1C33879400FD9EBF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16EB03D11C38CE9F00CB676B /* ZZMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMainTabbarController.h; sourceTree = "<group>"; };
+		16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMainTabbarController.m; sourceTree = "<group>"; };
+		16EB03D31C38CE9F00CB676B /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
+		16EB03D41C38CE9F00CB676B /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
+		16EB03DC1C38F51E00CB676B /* ZZOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOneViewController.h; sourceTree = "<group>"; };
+		16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZOneViewController.m; sourceTree = "<group>"; };
+		16EB03DF1C38F55000CB676B /* ZZTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTwoViewController.h; sourceTree = "<group>"; };
+		16EB03E01C38F55000CB676B /* ZZTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTwoViewController.m; sourceTree = "<group>"; };
+		16EB03E21C38F55A00CB676B /* ZZThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZThreeViewController.h; sourceTree = "<group>"; };
+		16EB03E31C38F55A00CB676B /* ZZThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZThreeViewController.m; sourceTree = "<group>"; };
+		16EB03E51C38F56500CB676B /* ZZFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFourViewController.h; sourceTree = "<group>"; };
+		16EB03E61C38F56500CB676B /* ZZFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFourViewController.m; sourceTree = "<group>"; };
+		16EB03E81C3906F900CB676B /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		16EB03E91C39084D00CB676B /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		A9C1C68B1C33879400FD9EBF /* ZZDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C1C68F1C33879400FD9EBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9C1C6911C33879400FD9EBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9C1C6921C33879400FD9EBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9C1C6941C33879400FD9EBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9C1C6951C33879400FD9EBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9C1C69A1C33879400FD9EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C1C69F1C33879400FD9EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +52,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16EB03D01C38CE9F00CB676B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				16EB03D11C38CE9F00CB676B /* ZZMainTabbarController.h */,
+				16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */,
+				16EB03D31C38CE9F00CB676B /* ZZNavigationController.h */,
+				16EB03D41C38CE9F00CB676B /* ZZNavigationController.m */,
+				16EB03D91C38F40D00CB676B /* One */,
+				16EB03DB1C38F40D00CB676B /* Two */,
+				16EB03DA1C38F40D00CB676B /* Three */,
+				16EB03D81C38F40D00CB676B /* Four */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		16EB03D81C38F40D00CB676B /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				16EB03E51C38F56500CB676B /* ZZFourViewController.h */,
+				16EB03E61C38F56500CB676B /* ZZFourViewController.m */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		16EB03D91C38F40D00CB676B /* One */ = {
+			isa = PBXGroup;
+			children = (
+				16EB03DC1C38F51E00CB676B /* ZZOneViewController.h */,
+				16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		16EB03DA1C38F40D00CB676B /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				16EB03E21C38F55A00CB676B /* ZZThreeViewController.h */,
+				16EB03E31C38F55A00CB676B /* ZZThreeViewController.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		16EB03DB1C38F40D00CB676B /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				16EB03DF1C38F55000CB676B /* ZZTwoViewController.h */,
+				16EB03E01C38F55000CB676B /* ZZTwoViewController.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
 		A9C1C6821C33879400FD9EBF = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +124,7 @@
 			children = (
 				A9C1C6911C33879400FD9EBF /* AppDelegate.h */,
 				A9C1C6921C33879400FD9EBF /* AppDelegate.m */,
-				A9C1C6941C33879400FD9EBF /* ViewController.h */,
-				A9C1C6951C33879400FD9EBF /* ViewController.m */,
+				16EB03D01C38CE9F00CB676B /* Module */,
 				A9C1C69A1C33879400FD9EBF /* Assets.xcassets */,
 				A9C1C69F1C33879400FD9EBF /* Info.plist */,
 				A9C1C68E1C33879400FD9EBF /* Supporting Files */,
@@ -69,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				A9C1C68F1C33879400FD9EBF /* main.m */,
+				16EB03E81C3906F900CB676B /* Prefix.pch */,
+				16EB03E91C39084D00CB676B /* Define.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,9 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C1C6961C33879400FD9EBF /* ViewController.m in Sources */,
+				16EB03E71C38F56500CB676B /* ZZFourViewController.m in Sources */,
+				16EB03DE1C38F51E00CB676B /* ZZOneViewController.m in Sources */,
+				16EB03E11C38F55000CB676B /* ZZTwoViewController.m in Sources */,
+				16EB03D51C38CE9F00CB676B /* ZZMainTabbarController.m in Sources */,
 				A9C1C6931C33879400FD9EBF /* AppDelegate.m in Sources */,
 				A9C1C6901C33879400FD9EBF /* main.m in Sources */,
+				16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */,
+				16EB03E41C38F55A00CB676B /* ZZThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZDemo/Prefix.pch";
 				INFOPLIST_FILE = ZZDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zz.ZZDemo;
@@ -245,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZDemo/Prefix.pch";
 				INFOPLIST_FILE = ZZDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zz.ZZDemo;
