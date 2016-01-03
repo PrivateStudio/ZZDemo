@@ -9,9 +9,9 @@
 #ifndef define_h
 #define define_h
 
-#define IMGNAMED(x)	     [UIImage imageNamed:x]
-#define SCREEN_SIZE               [UIScreen mainScreen].bounds.size
-#define SCREEN_WIDTH               [UIScreen mainScreen].bounds.size.width
+#define IMGNAMED(x)                 [UIImage imageNamed:x]
+#define SCREEN_SIZE                 [UIScreen mainScreen].bounds.size
+#define SCREEN_WIDTH                [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT               [UIScreen mainScreen].bounds.size.height
 
 

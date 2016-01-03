@@ -21,16 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-//    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 50, 50)];
-//    testView.backgroundColor = [UIColor greenColor];
-//    [self.view addSubview:testView];
     [self setupViewControllers];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)setupViewControllers
