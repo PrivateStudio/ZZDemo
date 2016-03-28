@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1634B7A71CA8E3B000BB7BFA /* ZZFunctionPageConf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */; };
+		1634B7AA1CA8E3F000BB7BFA /* ZZTableExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */; };
 		16EB03D51C38CE9F00CB676B /* ZZMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */; };
 		16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D41C38CE9F00CB676B /* ZZNavigationController.m */; };
 		16EB03DE1C38F51E00CB676B /* ZZOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */; };
@@ -24,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		0DDBC19AFF91DA08BAC685FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZZFunctionPageConf.plist; sourceTree = "<group>"; };
+		1634B7A81CA8E3F000BB7BFA /* ZZTableExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTableExampleViewController.h; sourceTree = "<group>"; };
+		1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTableExampleViewController.m; sourceTree = "<group>"; };
 		16EB03D11C38CE9F00CB676B /* ZZMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMainTabbarController.h; sourceTree = "<group>"; };
 		16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMainTabbarController.m; sourceTree = "<group>"; };
 		16EB03D31C38CE9F00CB676B /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
@@ -65,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1634B7A51CA8E3B000BB7BFA /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */,
+				1634B7A81CA8E3F000BB7BFA /* ZZTableExampleViewController.h */,
+				1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 		16EB03D01C38CE9F00CB676B /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +109,7 @@
 			children = (
 				16EB03DC1C38F51E00CB676B /* ZZOneViewController.h */,
 				16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */,
+				1634B7A51CA8E3B000BB7BFA /* Function */,
 			);
 			path = One;
 			sourceTree = "<group>";
@@ -257,6 +273,7 @@
 			files = (
 				16EB03F61C3938FC00CB676B /* tableViewSample.plist in Resources */,
 				A9C1C69B1C33879400FD9EBF /* Assets.xcassets in Resources */,
+				1634B7A71CA8E3B000BB7BFA /* ZZFunctionPageConf.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +342,7 @@
 				A9C1C6901C33879400FD9EBF /* main.m in Sources */,
 				16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */,
 				16EB03E41C38F55A00CB676B /* ZZThreeViewController.m in Sources */,
+				1634B7AA1CA8E3F000BB7BFA /* ZZTableExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,30 +1,25 @@
 //
-//  ZZOneViewController.m
+//  ZZTableExampleViewController.m
 //  ZZDemo
 //
-//  Created by Lingfeng on 16/1/3.
+//  Created by Lingfeng on 16/3/28.
 //  Copyright © 2016年 Personal. All rights reserved.
 //
 
-#import "ZZOneViewController.h"
+#import "ZZTableExampleViewController.h"
 
-@interface ZZOneViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ZZTableExampleViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSArray *data;
 
 @end
 
-static NSString *const kFunctionPageConfPlist = @"ZZFunctionPageConf";
-
-@implementation ZZOneViewController
+@implementation ZZTableExampleViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Function Page";
-    
-    self.data = [NSArray arrayFromPList:kFunctionPageConfPlist];
+    self.title = @"One";
     
     [self.view addSubview:self.tableView];
 }
@@ -43,41 +38,29 @@ static NSString *const kFunctionPageConfPlist = @"ZZFunctionPageConf";
 }
 
 
+
 #pragma mark - UITableView DataSource
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *identifier = @"FuncationPageCell";
+    static NSString *identifier = @"OneCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    NSDictionary *dataConf = self.data[indexPath.row];
-    cell.textLabel.text = dataConf[@"title"];
+    cell.textLabel.text = [NSString stringWithFormat:@"section = %ld, row = %ld", (long)indexPath.section, (long)indexPath.row];
     
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.data.count;
+    return 5;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
-}
-
-#pragma mark - UITableView Delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    NSDictionary *dataConf = self.data[indexPath.row];
-    UIViewController *viewController = [NSClassFromString(dataConf[@"content"]) new];
-    
-    [self.navigationController pushViewController:viewController animated:YES];
+    return 2;
 }
 
 @end
