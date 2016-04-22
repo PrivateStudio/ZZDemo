@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZZNetworkRequestController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sT-rc-6Hh">
+                    <rect key="frame" x="0.0" y="26" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fk-KG-UVw">
+                            <rect key="frame" x="20" y="70" width="42" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="QdJ-DP-jnD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gi-3V-uv5">
+                            <rect key="frame" x="272" y="70" width="80" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="maX-T5-8Ue"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.92353355911147039" blue="0.14073008191771841" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="7Gi-3V-uv5" firstAttribute="height" secondItem="6fk-KG-UVw" secondAttribute="height" id="160-bj-rOb"/>
+                        <constraint firstAttribute="trailing" secondItem="7Gi-3V-uv5" secondAttribute="trailing" constant="20" id="6T5-OH-RSi"/>
+                        <constraint firstItem="6fk-KG-UVw" firstAttribute="leading" secondItem="5sT-rc-6Hh" secondAttribute="leading" constant="20" id="7UB-j8-nI0"/>
+                        <constraint firstItem="6fk-KG-UVw" firstAttribute="top" secondItem="5sT-rc-6Hh" secondAttribute="top" constant="70" id="DkM-bS-mJj"/>
+                        <constraint firstAttribute="bottom" secondItem="6fk-KG-UVw" secondAttribute="bottom" constant="477" id="UBS-b4-wIo"/>
+                        <constraint firstItem="7Gi-3V-uv5" firstAttribute="leading" secondItem="5sT-rc-6Hh" secondAttribute="leading" constant="272" id="f9o-Ss-QAN"/>
+                        <constraint firstItem="7Gi-3V-uv5" firstAttribute="top" secondItem="6fk-KG-UVw" secondAttribute="top" id="kB2-4D-SW8"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5sT-rc-6Hh" secondAttribute="bottom" id="EvJ-Qq-n3e"/>
+                <constraint firstItem="5sT-rc-6Hh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bvc-nY-XIt"/>
+                <constraint firstAttribute="trailing" secondItem="5sT-rc-6Hh" secondAttribute="trailing" id="haQ-9j-Tpx"/>
+                <constraint firstItem="5sT-rc-6Hh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tRK-Yq-9cN"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="357.5" y="306.5"/>
+        </view>
+    </objects>
+</document>

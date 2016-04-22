@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollDemoViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="swF-8T-gc1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ine-1O-s4Z">
+                            <rect key="frame" x="0.0" y="64" width="375" height="666"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iND-yR-VAn">
+                                    <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="666" id="NWy-Y6-F5P"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ine-1O-s4Z" secondAttribute="bottom" constant="-1" id="IXH-q4-9EM"/>
+                        <constraint firstAttribute="trailing" secondItem="ine-1O-s4Z" secondAttribute="trailing" id="gDX-Pt-bMI"/>
+                        <constraint firstItem="ine-1O-s4Z" firstAttribute="leading" secondItem="swF-8T-gc1" secondAttribute="leading" id="pnm-eK-rQs"/>
+                        <constraint firstItem="ine-1O-s4Z" firstAttribute="top" secondItem="swF-8T-gc1" secondAttribute="top" constant="64" id="xLO-Lc-ihP"/>
+                        <constraint firstItem="ine-1O-s4Z" firstAttribute="width" secondItem="swF-8T-gc1" secondAttribute="width" id="xcW-ng-iQk"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="swF-8T-gc1" secondAttribute="bottom" id="7RF-hN-c9r"/>
+                <constraint firstAttribute="trailing" secondItem="swF-8T-gc1" secondAttribute="trailing" id="L5j-dY-NHv"/>
+                <constraint firstItem="swF-8T-gc1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="My2-CX-oW0"/>
+                <constraint firstItem="swF-8T-gc1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hWw-wT-lum"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

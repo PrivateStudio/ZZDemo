@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1634B7A71CA8E3B000BB7BFA /* ZZFunctionPageConf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */; };
 		1634B7AA1CA8E3F000BB7BFA /* ZZTableExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */; };
+		16DE055F1CB368A800FB639C /* ZZNetworkRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DE055D1CB368A800FB639C /* ZZNetworkRequestController.m */; };
+		16DE05601CB368A800FB639C /* ZZNetworkRequestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE055E1CB368A800FB639C /* ZZNetworkRequestController.xib */; };
+		16DE05641CB37DBF00FB639C /* ScrollDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DE05621CB37DBF00FB639C /* ScrollDemoViewController.m */; };
+		16DE05651CB37DBF00FB639C /* ScrollDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE05631CB37DBF00FB639C /* ScrollDemoViewController.xib */; };
 		16EB03D51C38CE9F00CB676B /* ZZMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */; };
 		16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03D41C38CE9F00CB676B /* ZZNavigationController.m */; };
 		16EB03DE1C38F51E00CB676B /* ZZOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB03DD1C38F51E00CB676B /* ZZOneViewController.m */; };
@@ -29,6 +33,12 @@
 		1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZZFunctionPageConf.plist; sourceTree = "<group>"; };
 		1634B7A81CA8E3F000BB7BFA /* ZZTableExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTableExampleViewController.h; sourceTree = "<group>"; };
 		1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTableExampleViewController.m; sourceTree = "<group>"; };
+		16DE055C1CB368A800FB639C /* ZZNetworkRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNetworkRequestController.h; sourceTree = "<group>"; };
+		16DE055D1CB368A800FB639C /* ZZNetworkRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNetworkRequestController.m; sourceTree = "<group>"; };
+		16DE055E1CB368A800FB639C /* ZZNetworkRequestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZNetworkRequestController.xib; sourceTree = "<group>"; };
+		16DE05611CB37DBF00FB639C /* ScrollDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollDemoViewController.h; sourceTree = "<group>"; };
+		16DE05621CB37DBF00FB639C /* ScrollDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollDemoViewController.m; sourceTree = "<group>"; };
+		16DE05631CB37DBF00FB639C /* ScrollDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollDemoViewController.xib; sourceTree = "<group>"; };
 		16EB03D11C38CE9F00CB676B /* ZZMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMainTabbarController.h; sourceTree = "<group>"; };
 		16EB03D21C38CE9F00CB676B /* ZZMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMainTabbarController.m; sourceTree = "<group>"; };
 		16EB03D31C38CE9F00CB676B /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
@@ -76,6 +86,12 @@
 				1634B7A61CA8E3B000BB7BFA /* ZZFunctionPageConf.plist */,
 				1634B7A81CA8E3F000BB7BFA /* ZZTableExampleViewController.h */,
 				1634B7A91CA8E3F000BB7BFA /* ZZTableExampleViewController.m */,
+				16DE055C1CB368A800FB639C /* ZZNetworkRequestController.h */,
+				16DE055D1CB368A800FB639C /* ZZNetworkRequestController.m */,
+				16DE055E1CB368A800FB639C /* ZZNetworkRequestController.xib */,
+				16DE05611CB37DBF00FB639C /* ScrollDemoViewController.h */,
+				16DE05621CB37DBF00FB639C /* ScrollDemoViewController.m */,
+				16DE05631CB37DBF00FB639C /* ScrollDemoViewController.xib */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -272,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16EB03F61C3938FC00CB676B /* tableViewSample.plist in Resources */,
+				16DE05651CB37DBF00FB639C /* ScrollDemoViewController.xib in Resources */,
 				A9C1C69B1C33879400FD9EBF /* Assets.xcassets in Resources */,
+				16DE05601CB368A800FB639C /* ZZNetworkRequestController.xib in Resources */,
 				1634B7A71CA8E3B000BB7BFA /* ZZFunctionPageConf.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,10 +356,12 @@
 				16EB03E11C38F55000CB676B /* ZZTwoViewController.m in Sources */,
 				16EB03D51C38CE9F00CB676B /* ZZMainTabbarController.m in Sources */,
 				A9C1C6931C33879400FD9EBF /* AppDelegate.m in Sources */,
+				16DE055F1CB368A800FB639C /* ZZNetworkRequestController.m in Sources */,
 				16EB03F11C390FB200CB676B /* NSDictionary+Core.m in Sources */,
 				A9C1C6901C33879400FD9EBF /* main.m in Sources */,
 				16EB03D61C38CE9F00CB676B /* ZZNavigationController.m in Sources */,
 				16EB03E41C38F55A00CB676B /* ZZThreeViewController.m in Sources */,
+				16DE05641CB37DBF00FB639C /* ScrollDemoViewController.m in Sources */,
 				1634B7AA1CA8E3F000BB7BFA /* ZZTableExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
